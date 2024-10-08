@@ -1,0 +1,316 @@
+
+
+@media (max-width:2600px)  {
+    .hero-para{
+        position: absolute;
+        bottom: 22px;
+        left: 120px;
+        font-size: 13px;
+        width: 290px;
+    }
+}
+@media (max-width:1400px)  {
+    .hero-para{
+        position: absolute;
+        bottom: 22px;
+        left: 180px;
+        font-size: 13px;
+        width: 290px;
+    }
+}
+@media (max-width:1200px)  {
+    .product-gallery .vision h4::after, .why-us .vision::after{
+        display: none;
+    }
+    .flex p{
+        padding: 0;
+    }
+    .flex h2{
+        font-size: 24px;
+    }
+    .flex{
+        background: #f1591d;
+        padding:  50px 30px;
+        margin: 20px 0;
+        min-height: 300px;
+        border-radius: 10px;
+    }
+    .flex-2{
+        background: #1d92f1;
+
+    }
+    .flex-3{
+        background: #1de3f1;
+
+    }
+    .flex-back{
+        display: none !important;
+    }
+    .value-card .value-img{
+        width: 180px !important;
+        object-fit: cover;
+        z-index: 292;
+    }
+    .logo-img{
+        display: none;
+    }
+}
+
+@media (max-width:1300px) and (min-width:1000px)  {
+    .card-1 .value-img{
+        position: absolute;
+        top: -80px;
+        left: -20px;
+        width: 150px !important;
+    }
+    .card-2 .value-img{
+        position: absolute;
+        top: -80px;
+        right: -20px;
+        width: 150px;
+    }
+    .card-3 .value-img{
+        position: absolute;
+        bottom: -80px;
+        left: -20px;
+        width: 150px;
+    }
+    .card-4 .value-img{
+        position: absolute;
+        bottom: -80px;
+        right: -20px;
+        width: 150px;
+    }
+   
+}
+@media (max-width:999px) {
+    .hero-para{
+        position: relative;
+        bottom: -20px;
+        left: 10px;
+        font-size: 11px;
+        width: 100%;
+        text-align: center;
+    }
+    .why-us .vision .pt-3{
+        text-align: center ;
+        padding: 0 40px;
+    }
+    .logo-img{
+        display: none;
+    }
+    .carousel-item img{
+        height: 60vh ;
+    }
+    .logo-img{
+        display: none;
+    }
+  
+    .card-3 .value-img, .card-4 .value-img{
+        position: absolute;
+        left: 50% !important;
+        top: 27% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    .value-card .value-img{
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, -50%);
+    }
+    .value-card{
+        margin: 90px 0;
+        min-height: 380px;
+    }
+    .value-card h2{
+        text-align: center;
+        font-size: 26px;
+        margin-top: 60px !important;
+    }
+}
+@media (max-width:769px) and (min-width:469px) {
+   
+    .input-product input{
+        width: 100%;
+        height: 69px;
+        background-color: #5756562d;
+        border: none;
+        outline: none;
+        padding: 15px 20px;
+        border-radius: 28px 0 0 28px !important;
+    }
+    .input-product input::placeholder{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .input-product button{
+        left: 210px;
+        bottom: 70px;
+    }
+    .flex-back{
+        display: none;
+    }
+    
+    .flex-2{
+        background: #1d92f1;
+
+    }
+    .flex-3{
+        background: #1de3f1;
+
+    }
+    .flex i{
+        font-size: 38px;
+        margin: 10px 0;
+    }
+    .flex p{
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    .values::after, .values{
+        
+        min-height: 220px !important;
+        left: 0;
+        top: 85;
+        z-index: 0;
+    }
+    
+   
+}
+
+@media(max-width:600px){
+    .contact-reverse{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        grid-gap: 20px;
+    }
+    .contact-reverse .d-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .address{
+        margin-left: 100px !important;
+    }
+    .address p{
+        text-align: start;
+    }
+    .contact-reverse .arrow-div{
+        display: flex;
+    }
+    .hero-para{
+        position: relative;
+        bottom: -20px;
+        left: 10px;
+        font-size: 11px;
+        width: 100%;
+        text-align: center;
+    }
+    .input-product button{
+        left: 180px;
+        bottom: 70px;
+    }
+    .product-gallery .vision h4{
+        font-size: 16px;
+    }
+    .product-gallery .vision p{
+        font-size: 12px;
+    }
+    .values{
+        background-image: url(../images/values-banner.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .values p{
+        z-index: 23432;
+    }
+    .values::after, .values{
+        min-height: 220px !important;
+        left: 0;
+        top: 60;
+    }
+    .carousel-item img{
+        height: 40vh ;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .btn, p{
+        font-size: 12px;
+    }
+    .navbar-brand img{
+        width: 80px;
+    }
+    .box{
+        display: flex;
+        background-color: #fff;
+        width: 220px;
+        top: -50px;
+        padding: 10px !important;
+    }
+    .box hr{
+        width: 1px;
+        height: 100px;
+        background-color: black;
+        color: black;
+        margin-bottom: 10px;
+        border: 1px solid black;
+    }
+    .hero-text h2{
+        font-size: 26px;
+        padding-right: 30px;
+    }
+    .service{
+        padding: 20px 0;
+    }
+    .banner-overlay, .banner{
+        min-height: 300px;
+    }
+    .flex-back{
+        display: none;
+    }
+}
+@media(max-width:420px){
+    .input-product button{
+        left: 120px;
+        bottom: 70px;
+    }
+    .product-gallery .vision h4{
+        font-size: 14px;
+    }
+    .values::after, .values{
+        
+        min-height: 220px !important;
+        left: 0;
+        z-index: 0;
+    }
+    .flex{
+        min-height: 300px;
+        background: #f1591d;
+        font-size: 12px !important;
+        margin: 20px 0;
+    }
+    .flex-2{
+        background: #1d92f1;
+
+    }
+    .flex-3{
+        background: #1de3f1;
+
+    }
+
+}
+@media(max-width:398px){
+    .input-product button{
+        left: 100px;
+        bottom: 70px;
+    }
+    .values::after, .values{
+        
+        min-height: 270px !important;
+        left: 0;
+        z-index: 0;
+    }
+    
+}

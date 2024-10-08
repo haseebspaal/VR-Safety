@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4everGoods | FAQ</title>
+  
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+  
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+    <!-- CSS Style Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+  
+<body>
+    <!-- Companies -->
+    <div class="companies">
+        <div class="container mb-5 my-lg-5">
+            <hr class="bg-secondary">
+            <div class="slick-slider"> 
+                    <img src="assets/img/home-logo2-copyright.png" width="70px" alt="logo">
+                    <img src="assets/img/home-logo2-copyright.png" width="70px" alt="logo">
+                    <img src="assets/img/home-logo2-copyright.png" width="70px" alt="logo">
+                    <img src="assets/img/home-logo2-copyright.png" width="70px" alt="logo">
+                    <img src="assets/img/home-logo2-copyright.png" width="70px" alt="logo">
+                    <img src="assets/img/home-logo2-copyright.png" width="70px" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.slick-slider').slick({
+                infinite: true,
+                slidesToShow: 3, // Adjust based on how many images you want to show
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000, // Adjust the speed of auto-scrolling
+                dots: false,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 640,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 320,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
